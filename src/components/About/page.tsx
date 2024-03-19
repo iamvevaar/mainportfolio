@@ -15,10 +15,15 @@ const About: React.FC = () => {
       <div className={`${styles.container} ${styles.aboutContainer}`}>
         <div className={styles.aboutMe}>
           <div className={styles.aboutMeImage}>
-            <img
-              src="https://iamvevaar.github.io/vevaar/static/media/Portrait.306fc19d92bc9a2f0b65.png"
+            <Image 
+              src={DP}
               alt="Meri DP"
+              width={200}
+              height={200}
             />
+            {/* <img
+              src="https://iamvevaar.github.io/vevaar/static/media/Portrait.306fc19d92bc9a2f0b65.png"
+            /> */}
           </div>
         </div>
 

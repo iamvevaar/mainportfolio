@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
+import Image from "next/image";
 
 interface PortfolioItemProps {
   imgSrc: string;
@@ -18,7 +19,8 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
 }) => (
   <article className={styles.portfolioItem}>
     <div className={styles.portfolioItemImage}>
-      <img src={imgSrc} alt={title} />
+      <Image src={imgSrc} alt={title} width={250} height={250}/>
+      {/* <img src={imgSrc} alt={title} /> */}
     </div>
     <div className={styles.portfolioHead}>
       <h3>{title}</h3>
