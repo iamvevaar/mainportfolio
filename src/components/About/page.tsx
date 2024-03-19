@@ -54,7 +54,7 @@ const About: React.FC = () => {
             Thanks for your kind attention.
           </p>
           <a href="#contact" className={`${styles.btn} ${styles.btnPrimary}`}>
-            Let's Talk
+            Lets Talk
           </a>
         </div>
       </div>
