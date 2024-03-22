@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
+import cpr from "../../assets/cpr.jpg"
 
 interface PortfolioItemProps {
   imgSrc: string;
@@ -40,6 +41,14 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
 );
 
 const webDevItems = [
+  {
+    imgSrc:"https://private-user-images.githubusercontent.com/69046800/316125525-812e7362-1572-42a1-9b32-7d4fb8f73bc5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExMzM2ODAsIm5iZiI6MTcxMTEzMzM4MCwicGF0aCI6Ii82OTA0NjgwMC8zMTYxMjU1MjUtODEyZTczNjItMTU3Mi00MmExLTliMzItN2Q0ZmI4ZjczYmM1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIyVDE4NDk0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlODc5OGQ3YWEzZDRjMDMwZmE3ZGYxMWU1YzQ1M2FmNmNlNGZhY2Y2NDU2NTc1MjU2OTBiZWVlNTE0ZjE0N2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.EXk0tyTFoLoQpcuOjtjeakZVHo8qyVS2HmW3CI1q57Q",
+    title: "ICG",
+    description: "Frontend | React.ts | React Advanced Cropper",
+    githubLink: "https://github.com/iamvevaar/cpr",
+    liveDemoLink: "https://cpr-lilac.vercel.app/",
+
+  },
   {
     imgSrc:
       "https://user-images.githubusercontent.com/69046800/196301741-c0e34585-8ea8-490d-bd89-c96aff360429.png",
