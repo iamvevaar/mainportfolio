@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import cpr from "../../assets/cpr.jpg"
+import cpr from "../../assets/cpr.jpg";
 
 interface PortfolioItemProps {
   imgSrc: string;
@@ -20,7 +20,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
 }) => (
   <article className={styles.portfolioItem}>
     <div className={styles.portfolioItemImage}>
-      <Image src={imgSrc} alt={title} width={250} height={250}/>
+      <Image src={imgSrc} alt={title} width={250} height={250} />
       {/* <img src={imgSrc} alt={title} /> */}
     </div>
     <div className={styles.portfolioHead}>
@@ -42,12 +42,12 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
 
 const webDevItems = [
   {
-    imgSrc:"https://private-user-images.githubusercontent.com/69046800/316125525-812e7362-1572-42a1-9b32-7d4fb8f73bc5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExMzM2ODAsIm5iZiI6MTcxMTEzMzM4MCwicGF0aCI6Ii82OTA0NjgwMC8zMTYxMjU1MjUtODEyZTczNjItMTU3Mi00MmExLTliMzItN2Q0ZmI4ZjczYmM1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIyVDE4NDk0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlODc5OGQ3YWEzZDRjMDMwZmE3ZGYxMWU1YzQ1M2FmNmNlNGZhY2Y2NDU2NTc1MjU2OTBiZWVlNTE0ZjE0N2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.EXk0tyTFoLoQpcuOjtjeakZVHo8qyVS2HmW3CI1q57Q",
+    imgSrc:
+      "https://private-user-images.githubusercontent.com/69046800/316125525-812e7362-1572-42a1-9b32-7d4fb8f73bc5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExNzYxODgsIm5iZiI6MTcxMTE3NTg4OCwicGF0aCI6Ii82OTA0NjgwMC8zMTYxMjU1MjUtODEyZTczNjItMTU3Mi00MmExLTliMzItN2Q0ZmI4ZjczYmM1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDA2MzgwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcwNmFkM2FmOWRjYzM3ODA5ZTYyZjE5Y2ZkMDNkNThjY2Q2NjBhNWRjZjQ5YmNkZmU2MTU1NTE2YzE3NWU4ZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sER_S0zYygAZfOivCnqUbpGlbmk5NQ46R7X98ZS75No",
     title: "ICG",
-    description: "Frontend | React.ts | React Advanced Cropper",
+    description: "Frontend | React.ts | Tailwind | React Advanced Cropper",
     githubLink: "https://github.com/iamvevaar/cpr",
     liveDemoLink: "https://cpr-lilac.vercel.app/",
-
   },
   {
     imgSrc:
@@ -75,19 +75,17 @@ const webDevItems = [
   },
 ];
 
-
 const chromeExtensionItems = [
   {
     imgSrc:
-    "https://user-images.githubusercontent.com/69046800/196301741-c0e34585-8ea8-490d-bd89-c96aff360429.png",
+      "https://user-images.githubusercontent.com/69046800/196301741-c0e34585-8ea8-490d-bd89-c96aff360429.png",
     title: "Loopsi",
     description: "Javascript | Chrome Extension",
     githubLink: "https://github.com/iamvevaar/loopsi",
     liveDemoLink: "",
   },
   {
-    imgSrc:
-    "https://raw.githubusercontent.com/iamvevaar/Extension2X/main/_ff3523ab-590e-43fa-a7f7-38c93aec4d31.jpg",
+    imgSrc:"https://private-user-images.githubusercontent.com/69046800/307497647-71d03e24-5694-4501-9523-27f7188f6719.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExNzY3NzYsIm5iZiI6MTcxMTE3NjQ3NiwicGF0aCI6Ii82OTA0NjgwMC8zMDc0OTc2NDctNzFkMDNlMjQtNTY5NC00NTAxLTk1MjMtMjdmNzE4OGY2NzE5LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIzVDA2NDc1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1NmJhMzMzM2VhODY3MjBkNzczMmY5ZGMyODMwNWMzYWVjYTQ2MTBlMjQ2NGMzN2U5NjQzZmRjM2I0NTI0NmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.083XF41OzI4WOYqURxJHF7MXtyRRkA6VYpGp0dBYlqs",
     title: "Extension2x",
     description: "Frontend | React.js | API",
     githubLink: "https://github.com/iamvevaar/extension2x",
@@ -98,16 +96,15 @@ const chromeExtensionItems = [
 const pythonUtilityItems = [
   {
     imgSrc:
-    "https://user-images.githubusercontent.com/69046800/196301741-c0e34585-8ea8-490d-bd89-c96aff360429.png",
+      "https://user-images.githubusercontent.com/69046800/196301741-c0e34585-8ea8-490d-bd89-c96aff360429.png",
     title: "Loopsi",
     description: "Javascript | Chrome Extension",
     githubLink: "",
     liveDemoLink: "",
-  }]
+  },
+];
 
 const Portfolio: React.FC = () => {
-  
-
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -116,41 +113,38 @@ const Portfolio: React.FC = () => {
       {/* web application div */}
       <div className={`${styles.container} ${styles.portfolioMainContainer}`}>
         <div>
-        <h1>Web Applications</h1>
+          <h1>Web Applications</h1>
         </div>
         <div className={styles.portfolioContainer}>
-        {webDevItems.map((item, index) => (
-          <PortfolioItem key={index} {...item} />
+          {webDevItems.map((item, index) => (
+            <PortfolioItem key={index} {...item} />
           ))}
-          </div>
+        </div>
       </div>
 
       {/* chrome application container */}
       <div className={`${styles.container} ${styles.portfolioMainContainer}`}>
         <div>
-        <h1>Chrome Extensions</h1>
+          <h1>Chrome Extensions</h1>
         </div>
         <div className={styles.portfolioContainer}>
-
-        {chromeExtensionItems.map((item, index) => (
-          <PortfolioItem key={index} {...item} />
+          {chromeExtensionItems.map((item, index) => (
+            <PortfolioItem key={index} {...item} />
           ))}
-          </div>
+        </div>
       </div>
 
-        {/* python utilitise */}
+      {/* python utilitise */}
       <div className={`${styles.container} ${styles.portfolioMainContainer}`}>
         <div>
-        <h1>Python Utilities</h1>
+          <h1>Python Utilities</h1>
         </div>
         <div className={styles.portfolioContainer}>
-
-        {pythonUtilityItems.map((item, index) => (
-          <PortfolioItem key={index} {...item} />
+          {pythonUtilityItems.map((item, index) => (
+            <PortfolioItem key={index} {...item} />
           ))}
-          </div>
+        </div>
       </div>
-
     </section>
   );
 };
