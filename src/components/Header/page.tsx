@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <h5 className="textlight">Solepreneur | Javascript Developer | Freelance Video Editor | SMM</h5>
         <div className={styles.cta}>
           <Link
-            href="https://drive.google.com/file/d/1L51eWb4NY9EHerGKuSamq_UPyX9bBjLq/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1PxmEV-XA7NXWSc69XaAPMVUIvKlxP7UO/view?usp=sharing"
             className="btn"
             target="blank"
           >
